@@ -10,8 +10,6 @@
             font-weight: 800;
             letter-spacing: -1px;
         }
-
-        /* Hiệu ứng hover cho card dự án */
         .project-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -22,4 +20,10 @@
         html { scroll-behavior: smooth; }
         .portfolio-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
         .portfolio-card:hover { transform: translateY(-5px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; }
-  
+        a i{
+            display: inline-block;
+            transition: 0.3s;
+        }
+        a:hover i{
+            transform: translateY(-5px)!important;
+        }
