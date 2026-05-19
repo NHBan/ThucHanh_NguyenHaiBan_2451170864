@@ -7,3 +7,17 @@
 .btn-primary{
     background-color: var(--bs-primary);
 }
+a i{
+            display: inline-block;
+            transition: 0.3s;
+        }
+        a:hover i{
+            transform: translateY(-5px);
+        }
+        #submit-btn{
+            transition: 0.3s;
+        }
+        #submit-btn:hover{
+            background-color: rgba(88, 36, 137, 0.486);
+            transform: scale(1.1);
+        }
