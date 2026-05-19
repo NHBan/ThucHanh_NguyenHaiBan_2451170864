@@ -1,23 +1,32 @@
-
 :root {
-    --bs-primary: #14b8a6;      
+    --bs-primary: #14b8a6;
     --bs-primary-rgb: 20, 184, 166;
-    --bs-secondary: #64748b;     
+    --bs-secondary: #64748b;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--bs-primary);
 }
-a i{
-            display: inline-block;
-            transition: 0.3s;
-        }
-        a:hover i{
-            transform: translateY(-5px);
-        }
-        #submit-btn{
-            transition: 0.3s;
-        }
-        #submit-btn:hover{
-            background-color: rgba(88, 36, 137, 0.486);
-            transform: scale(1.1);
-        }
+
+a i {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover i {
+    transform: translateY(-5px);
+}
+
+#submit-btn {
+    transition: 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: rgba(88, 36, 137, 0.486);
+    transform: scale(1.1);
+}
+.form-control:focus {
+    border-color: #14b8a6 !important; 
+    box-shadow: 0 0 0 0.25rem rgba(20, 184, 166, 0.25) !important; 
+    background-color: #f8f9fa !important; 
+}
