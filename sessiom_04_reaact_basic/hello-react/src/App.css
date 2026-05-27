@@ -182,3 +182,10 @@
     border-right-color: var(--border);
   }
 }
+.profile{
+  background-color: aqua;
+  color: white;
+}
+.profile h1{
+color: white;
+}
